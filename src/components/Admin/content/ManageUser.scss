@@ -1,0 +1,32 @@
+.manage-user-container {
+    .user-content {
+        .btn-add-new {
+            margin: 10px 0 30px;
+        }
+    }
+}
+
+.modal-add-user {
+    .label-upload {
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .image-preview {
+        border: 1px dashed #ccc;
+        border-radius: 5px;
+        height: 150px;
+        width: 100%;
+        color: #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 100%;
+        }
+    }
+}

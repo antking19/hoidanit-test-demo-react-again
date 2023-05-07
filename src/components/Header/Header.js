@@ -38,8 +38,10 @@ const Header = (props) => {
                                 Separated link
                             </NavDropdown.Item>
                         </NavDropdown> */}
-                        <button class="btn btn-outline-dark mx-3">Login</button>
-                        <button class="btn btn-primary">Sign Up</button>
+                        <button className="btn btn-outline-dark mx-3">
+                            Login
+                        </button>
+                        <button className="btn btn-primary">Sign Up</button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

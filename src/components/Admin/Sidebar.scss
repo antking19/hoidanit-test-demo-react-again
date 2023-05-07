@@ -1,0 +1,29 @@
+.sidebar-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .sidebar-btn {
+        width: 150px;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 5px;
+        padding: 1px 15px;
+        color: #adadad;
+        text-decoration: none;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        span {
+            font-size: 13px;
+            margin-left: 5px;
+        }
+
+        &:hover {
+            color: #dee2ec;
+        }
+    }
+}
